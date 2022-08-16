@@ -5,7 +5,6 @@ import (
 	"fmt"
 	"strconv"
   "encoding/json"
-	"fmt"
 )
 
 // TO DO _ READ THESE VALUES FROM SOMEWHERE
