@@ -29,7 +29,7 @@ var cd4_record_count = 1
 	}
 */
 func FileC4DHello() string {
-	return "FileC4DHello Hello, world."
+	return "FileC4DHello Hello, Gyan."
 }
 
 /*
