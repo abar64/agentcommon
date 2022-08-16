@@ -1,4 +1,4 @@
-package fileC4D
+package banking
 
 import (
 	"fmt"
