@@ -4,8 +4,7 @@ package banking
 import (
 	"fmt"
 	"strconv"
-  "encoding/json"
-	"fmt"
+	"encoding/json"
 )
 
 // TO DO _ READ THESE VALUES FROM SOMEWHERE
