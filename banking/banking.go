@@ -1,5 +1,5 @@
 
-ackage banking
+package banking
 
 import (
 	"fmt"
