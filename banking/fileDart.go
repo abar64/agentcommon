@@ -88,6 +88,10 @@ type DartTransactionLine struct {
 	TransDiscrepancy     string `json:"transDiscrepancy"`
 }
 
+func FileDartHello() string {
+	return "FileDartHello Hello, world."
+}
+
 func StringArraytoDartJson(data []string) string {
 
 	dartTransaction := DartTransactionLine{}
@@ -217,4 +221,3 @@ func CheckState(currentState int, recordType int) int {
 	}
 	return sequence_Error
 }
-
