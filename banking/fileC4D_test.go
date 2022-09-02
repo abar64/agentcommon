@@ -2,12 +2,12 @@ package banking
 
 import "testing"
 
-func TestFileC4DHello(t *testing.T) {
-	got := FileC4DHello()
+func TestFileC4DVer(t *testing.T) {
+	got := FileC4DVer()
 	println(got)
-	want := "FileC4DHello Hello, world."
+	want := "FileC4D v0.0.0.1"
 	if got != want {
-		t.Errorf("FileC4DHello, want %q, got %q ", want, got)
+		t.Errorf("FileC4DVer, want %q, got %q ", want, got)
 	}
 }
 

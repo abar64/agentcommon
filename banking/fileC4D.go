@@ -5,28 +5,27 @@ import (
 	"strconv"
 )
 
-
-
 var cd4_record_count = 1
 
-func FileC4DHello() string {
-	return "FileC4DHello Hello, world."
+func FileC4DVer() string {
+	return "FileC4D v0.0.0.1"
 }
 
-func substr(input string, start int, length int) string {
-	asRunes := []rune(input)
+/*
+	func substr(input string, start int, length int) string {
+		asRunes := []rune(input)
 
-	if start >= len(asRunes) {
-		return ""
+		if start >= len(asRunes) {
+			return ""
+		}
+
+		if start+length > len(asRunes) {
+			length = len(asRunes) - start
+		}
+
+		return string(asRunes[start : start+length])
 	}
-
-	if start+length > len(asRunes) {
-		length = len(asRunes) - start
-	}
-
-	return string(asRunes[start : start+length])
-}
-
+*/
 func C4D_Header(record []string) {
 
 	fmt.Printf("\"SH\",\"02\",\"%s\",\"%s\",\"%07d\",\"%s\",\"%s\",\"%s\",\"%s\",\"%s\"\n",
@@ -165,4 +164,3 @@ func C4D_Transaction_Reject(record []string) {
 	}
 }
 */
-

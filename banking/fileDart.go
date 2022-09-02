@@ -169,11 +169,13 @@ func StringArraytoDartJson(data []string) string {
 */
 func CheckState(currentState int, recordType int) int {
 	// Current State
+	// Note # records must match or sequence_Error should be present otherwise an implied 0 is returned indicated header record is allow!
+	// Demo with [5][5]
 	dartRecordStates := [5][5]int{
 		{Accepted_Record, Pending_Record, Rejected_Record, Trailer_Record},
 		{Accepted_Record, Pending_Record, Rejected_Record, Trailer_Record},
 		{Accepted_Record, Pending_Record, Rejected_Record, Trailer_Record},
-		{Trailer_Record, End_Of_Run}}
+		{Trailer_Record, End_Of_Run, sequence_Error, sequence_Error}}
 
 	switch currentState {
 	case Initial_State:
