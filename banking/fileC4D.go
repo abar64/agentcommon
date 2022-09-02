@@ -8,7 +8,7 @@ import (
 var cd4_record_count = 1
 
 func FileC4DVer() string {
-	return "FileC4D v0.0.0.1"
+	return "FileC4D v0.0.0.2"
 }
 
 /*

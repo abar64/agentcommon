@@ -5,13 +5,13 @@ import (
 	"testing"
 )
 
-func TestFileDartHello(t *testing.T) {
-	fmt.Println("TestFileDartHello")
-	got := FileDartHello()
+func TestFileDartVer(t *testing.T) {
+	fmt.Println("TestFileDartVer")
+	got := FileDartVer()
 	println(got)
-	want := "FileDartHello Hello, world."
+	want := "FileDartVer v0.0.0.1"
 	if got != want {
-		t.Errorf("FileDartHello, want %q, got %q ", want, got)
+		t.Errorf("FileDartVer, want %q, got %q ", want, got)
 	}
 
 	fmt.Println("*********************************")

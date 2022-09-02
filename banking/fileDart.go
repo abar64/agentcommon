@@ -88,8 +88,8 @@ type DartTransactionLine struct {
 	TransDiscrepancy     string `json:"transDiscrepancy"`
 }
 
-func FileDartHello() string {
-	return "FileDartHello Hello, world."
+func FileDartVer() string {
+	return "FileDart v0.0.0.1"
 }
 
 func StringArraytoDartJson(data []string) string {
