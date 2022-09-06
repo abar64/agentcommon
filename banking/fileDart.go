@@ -89,7 +89,7 @@ type DartTransactionLine struct {
 }
 
 func FileDartVer() string {
-	return "FileDart v0.0.0.1"
+	return "FileDart v0.0.0.3"
 }
 
 func StringArraytoDartJson(data []string) string {

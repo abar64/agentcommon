@@ -6,12 +6,12 @@ import (
 )
 
 func TestFileDartVer(t *testing.T) {
-	fmt.Println("TestFileDartVer")
+	//	fmt.Println("TestFileDartVer")
 	got := FileDartVer()
 	println(got)
-	want := "FileDartVer v0.0.0.1"
+	want := "FileDart v0.0.0.3"
 	if got != want {
-		t.Errorf("FileDartVer, want %q, got %q ", want, got)
+		t.Errorf("FileDart, want %q, got %q ", want, got)
 	}
 
 	fmt.Println("*********************************")

@@ -5,7 +5,7 @@ import "testing"
 func TestFileC4DVer(t *testing.T) {
 	got := FileC4DVer()
 	println(got)
-	want := "FileC4D v0.0.0.1"
+	want := "FileC4D v0.0.0.3"
 	if got != want {
 		t.Errorf("FileC4DVer, want %q, got %q ", want, got)
 	}
