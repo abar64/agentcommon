@@ -9,7 +9,7 @@ func TestFileDartVer(t *testing.T) {
 	//	fmt.Println("TestFileDartVer")
 	got := FileDartVer()
 	println(got)
-	want := "FileDart v0.0.0.3"
+	want := "FileDart v0.0.0.4"
 	if got != want {
 		t.Errorf("FileDart, want %q, got %q ", want, got)
 	}
